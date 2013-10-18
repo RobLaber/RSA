@@ -1,0 +1,31 @@
+This is a file encryption and decryption program.  Place both encrypt.java and decrypt.java in the same directory.
+
+This program will encrypt .txt files containing only the following characters:
+
+a-z
+A-Z
+0-9
+?	
+(
+)
+*
+,
+-
+.
+/
+:
+;
+Space
+!		
+
+To encrypt the file 'MyFile.txt', on command line enter the following:
+java encrypt MyFile.txt
+
+This will create the file 'encrypted-MyFile.txt' in the same directory.
+
+To decrypt on the command line enter the following:
+java decrypt encrypted-MyFile.txt
+
+You will be prompted to enter the decryption key.  Only the correct key will produce a readable file.  This will produce the file 'decrypted-encrypted-MyFile.txt'.
+
+Enjoy!
